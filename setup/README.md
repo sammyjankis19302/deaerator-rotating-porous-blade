@@ -23,7 +23,7 @@ Sources: **[S]** screenshots of 27 June in [`media/`](../media) · **[P]** our s
 | `inlet` | velocity inlet; 90% water, 10% air by volume; turbulence 5% intensity, viscosity ratio 10 (27 June) | [P], [S] |
 | `outlet` | pressure outlet, the two 1 mm ends of the gap | [M] |
 | `outer_wall` | stationary wall, no slip | [M], [P] |
-| `interios` | split into its two edges and made a rotational periodic pair (`interios`, `interios:011`) | [M], report table on slide 8 |
+| `interios` | split into its two edges and made a rotational periodic pair (`interios`, `interios:011`) | [M], the table on slide 8 |
 | Steady start | 5,000 iterations: 1,500 first-order upwind, then 3,500 second-order upwind | [P] |
 | Transient | time step 1.6667 × 10⁻⁴ s (1° of rotation), 3,600 steps, 0.6 s | [P] |
 

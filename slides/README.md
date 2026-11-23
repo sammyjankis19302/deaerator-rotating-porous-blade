@@ -13,7 +13,7 @@ the Multiple Reference Frame (MRF) Method*.
 | 4 | methodology, in seven steps |
 | 5, 6 | the first-cell height |
 | 7 | the solver setup and the run plan |
-| 8 | the boundaries and cell zones (a table from our report) |
+| 8 | the boundaries and cell zones, as a table |
 | 9, 10 | boundary and cell-zone conditions |
 | 11 | the volume-fraction contours |
 

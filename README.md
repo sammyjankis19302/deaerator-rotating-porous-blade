@@ -76,7 +76,7 @@ Finding out how to do this took us several tries, and the mesh files keep them. 
 first left the straight edges as walls, then labelled them as a recirculation outlet and inlet, and
 finally as a plain interior zone, `interios`. In Fluent that zone was split into its two edges (Fluent
 names the second half `interios:011`) and the halves were joined as a rotational periodic pair, as the
-boundary table in our report records. Fluent will only do that if the two edges match node for node
+boundary table on slide 8 records. Fluent will only do that if the two edges match node for node
 when one is turned onto the other, and ours do: 199 faces each, spaced the same way.
 
 ## The mesh
@@ -256,7 +256,7 @@ and we have nothing left to compute it from.
 | 27 June 2026, 14:21 to 15:14 | one structured grid exported from Pointwise five times, labelled differently each time (`101` to `105`) |
 | 27 June, 15:59 | the Pointwise project saved (`101.pw`) |
 | 27 June, evening | Fluent set up: the mixture model, and the porous rotor turning at 104.7 rad/s; at 21:27 the first run diverges |
-| 29 June | the first-cell height worked out by hand; a mesh with a 0.02 mm first cell; the volume-fraction contours at t = 0.6 s; the report |
+| 29 June | the first-cell height worked out by hand; a mesh with a 0.02 mm first cell; the volume-fraction contours at t = 0.6 s |
 | 30 June | the slides and a recorded video presentation handed in; more cases run that afternoon |
 | November 2026 | the files recovered and checked, and this repository put together |
 
@@ -291,8 +291,7 @@ figures/       the figures in these pages, drawn by tools/make_figures.py
 ## The slides
 
 [`slides/`](slides/README.md) has the presentation we handed in on 30 June, as a PowerPoint file and as a
-PDF, with a list of what it gets wrong. The report, written on 29 June, is not here: we do not have a
-copy.
+PDF, with a list of what it gets wrong.
 
 <p align="center"><img src="media/slides.png" width="100%"></p>
 
